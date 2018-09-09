@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Canvas from "../presentation/Canvas.js";
+import Scene from "./Scene.js";
 
 class Board extends Component {
 	constructor(props){
@@ -10,7 +10,7 @@ class Board extends Component {
 	
 	render(){
 		return (
-			<Canvas />
+			<Scene />
 		);
 	}
 }
